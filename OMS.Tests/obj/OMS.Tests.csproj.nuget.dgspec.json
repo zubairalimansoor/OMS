@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS.Tests\\OMS.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS.Tests\\OMS.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS.Tests\\OMS.Tests.csproj",
+        "projectName": "OMS.Tests",
+        "projectPath": "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS.Tests\\OMS.Tests.csproj",
+        "packagesPath": "D:\\NuGetPackages",
+        "outputPath": "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zubair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net481"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net481": {
+            "targetAlias": "net481",
+            "projectReferences": {
+              "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS\\OMS.csproj": {
+                "projectPath": "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS\\OMS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net481": {
+          "targetAlias": "net481",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS\\OMS.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS\\OMS.csproj",
+        "projectName": "OMS",
+        "projectPath": "C:\\Users\\Zubair\\source\\repos\\OMS\\OMS\\OMS.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {}
+      }
+    }
+  }
+}
