@@ -101,7 +101,7 @@ dotnet test OMS.Tests\OMS.Tests.csproj
 
 ---
 
-## Design notes (interview talking points)
+## Design notes
 
 - **Ownership**: Production would swap **`SimulatedExchange`** for per-venue gateways (REST/FIX/WebSocket); the OMS contract stays **`IExchangeGateway` + messages**.
 - **Back-pressure**: This sample does not cap intents or queue depth; a real system would bound queues and surface pressure to the strategy.
